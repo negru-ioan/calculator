@@ -1,63 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-#container{
-    display: flex;
-    justify-content: center;
-    background: rgb(179, 194, 244);
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    font-family: Orbitron;
+#container {
+  display: flex;
+  justify-content: center;
+  background: rgb(179, 194, 244);
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  font-family: Orbitron;
 }
-#caculator-box{
-    background: rgb(134, 150, 137);
-    width: 380px;
-    height: 570px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 3px;
-    border: 2px black solid;
-    border: 4px outset rgb(198, 201, 198);
+#caculator-box {
+  background: rgb(134, 150, 137);
+  width: 380px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 3px;
+  border: 2px black solid;
+  border: 4px outset rgb(198, 201, 198);
 }
-.display{
-    width: 360px;
-    height: 90px;
-    background: linear-gradient(1deg, rgb(117, 219, 143), rgb(206, 252, 206));
-    text-align: end;
-    border: 4px inset rgb(198, 201, 198);
-    vertical-align: middle;
+.display {
+  width: 360px;
+  height: 90px;
+  background: linear-gradient(1deg, rgb(117, 219, 143), rgb(206, 252, 206));
+  text-align: end;
+  border: 4px inset rgb(198, 201, 198);
+  vertical-align: middle;
 }
-#calc-display{
-    font-size: 45px;
-    margin-top: 24px;
+#calc-display {
+  font-size: 45px;
+  margin-top: 24px;
 }
-#keys-container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 370px;
-    height: 460px;
+#keys-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 370px;
+  height: 460px;
 }
-.keys{
-    display: flex;
-    width: 90px;
-    height: 90px;
-    background: rgb(221, 238, 253);
-    align-items: center;
-    justify-content: center;
-    font-size: 2.3rem;
-    border: 1px solid black;
+.keys {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background: rgb(221, 238, 253);
+  align-items: center;
+  justify-content: center;
+  font-size: 2.3rem;
+  border: 1px solid black;
 }
-.keys:hover{
- background-color: rgb(199, 227, 252);
- cursor: pointer;
+.keys:hover {
+  background-color: rgb(199, 227, 252);
+  cursor: pointer;
 }
-.operations{
-    background: rgb(183, 215, 243);
+.operations {
+  background: rgb(183, 215, 243);
 }
-.big-key{
-    width: 182px;
+.big-key {
+  width: 182px;
 }
